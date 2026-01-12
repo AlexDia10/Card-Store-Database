@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  oracle-db:
+    image: gvenzl/oracle-xe:21
+    container_name: oracle-db
+    ports:
+      - "1521:1521"
+    environment:
+      - ORACLE_ALLOW_REMOTE=true
+      - ORACLE_PASSWORD=oracle
+    volumes:
+      - ./sql/init.sql:/container-entrypoint-initdb.d/01-init.sql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
