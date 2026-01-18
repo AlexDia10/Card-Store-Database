@@ -12,21 +12,6 @@ It provides reporting and analytics for orders, templates, material usage, and r
 - 🧾 Material Usage Report  
 - 💰 Revenue by Template Report  
 
-## 📁 Project Structure
-Proiect/
-├── python/              # Python Flask application
-│   ├── app.py          # Main Flask application
-│   ├── requirements.txt # Python dependencies
-│   └── templates/      # Jinja2 HTML templates
-│       ├── base.html   # Base template with navigation
-│       └── report.html # Report display template
-├── sql/                # Database scripts
-│   └── init.sql        # Complete schema, data, and procedures
-├── images/             # Static image assets
-├── docker-compose.yml  # Docker configuration
-├── README.md           # Technical documentation
-└── README.txt          # This file
-
 ## 🚀 Local Deployment Guide
 
 ### ✅ 1) Start Oracle Database (Docker Recommended)
