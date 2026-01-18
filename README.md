@@ -1,4 +1,4 @@
-# 🎴 Greeting Card Store Management System  
+# Greeting Card Store Management System  
 **Oracle SQL + Python Flask Reporting App**
 
 ![Oracle](https://img.shields.io/badge/Database-Oracle%20XE%2021c-red) ![Flask](https://img.shields.io/badge/Backend-Flask-black) ![Docker](https://img.shields.io/badge/Deploy-Docker-blue) ![Python](https://img.shields.io/badge/Python-3.x-yellow)
@@ -14,18 +14,18 @@ It provides reporting and analytics for orders, templates, material usage, and r
 
 ## 📁 Project Structure
 Proiect/
-├── python/               # Python Flask application
-│   ├── app.py            # Main Flask application
-│   ├── requirements.txt  # Python dependencies
-│   └── templates/        # Jinja2 HTML templates
-│       ├── base.html     # Base layout + navigation
-│       └── report.html   # Report display template
-├── sql/
-│   └── init.sql          # Schema + inserts + stored procedures
-├── images/               # Static image assets
-├── docker-compose.yml    # Docker configuration (Oracle XE)
-├── README.md             # Project documentation
-└── README.txt            # Local deployment guide (optional)
+├── python/              # Python Flask application
+│   ├── app.py          # Main Flask application
+│   ├── requirements.txt # Python dependencies
+│   └── templates/      # Jinja2 HTML templates
+│       ├── base.html   # Base template with navigation
+│       └── report.html # Report display template
+├── sql/                # Database scripts
+│   └── init.sql        # Complete schema, data, and procedures
+├── images/             # Static image assets
+├── docker-compose.yml  # Docker configuration
+├── README.md           # Technical documentation
+└── README.txt          # This file
 
 ## 🚀 Local Deployment Guide
 
