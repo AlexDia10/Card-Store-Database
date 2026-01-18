@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greeting Card Store - Reports</title>
+    <title>Timeless Greetings - Reports</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,7 +20,7 @@
         }
 
         .nav {
-            background-color: #4CAF50;
+            background-color: #B93A64;
             padding: 10px;
             margin-bottom: 20px;
             border-radius: 5px;
@@ -36,7 +36,7 @@
         }
 
         .nav a:hover {
-            background-color: #45a049;
+            background-color: #a13157;
         }
 
         table {
@@ -55,7 +55,7 @@
         }
 
         th {
-            background-color: #4CAF50;
+            background-color: #B93A64;
             color: white;
         }
 
@@ -64,14 +64,22 @@
         }
 
         .report-title {
-            color: #4CAF50;
+            color: #B93A64;
             margin-top: 30px;
+        }
+
+        .hero {
+            display: block;
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+            margin: 20px auto;
         }
     </style>
 </head>
 
 <body>
-    <h1>Greeting Card Store Management System</h1>
+    <h1>Timeless Greetings</h1>
 
     <div class="nav">
         <a href="/">Home</a>
@@ -83,8 +91,9 @@
 
     <div class="content">
         {% block content %}
-        <h2>Welcome to the Greeting Card Store</h2>
+        <h2>Timeless words for meaningful moments.</h2>
         <p>Select a report from the navigation menu above to view analytics.</p>
+        <img class="hero" src="/images/with-love-letter-message-words-graphic.jpg" alt="Greeting card inspiration">
         {% endblock %}
     </div>
 </body>
